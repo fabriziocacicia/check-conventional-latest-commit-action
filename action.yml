@@ -1,4 +1,4 @@
-name: "Check Conventional Commit"
+name: "Check Conventional Latest Commit"
 description: "Checks if the latest commit follows the Conventional Commits specification."
 author: "mail@fabriziocacicia.com"
 
