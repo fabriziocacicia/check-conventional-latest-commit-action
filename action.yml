@@ -1,7 +1,11 @@
-name: "Name of the Action"
-description: "Description of the Action"
+name: "Check Conventional Commit"
+description: "Checks if the latest commit follows the Conventional Commits specification."
 author: "mail@fabriziocacicia.com"
 
 runs:
-  using: "can be composite/docker/..."
-  ...
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "black"
