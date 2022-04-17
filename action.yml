@@ -1,5 +1,5 @@
-name: "Check Conventional Latest Commit"
-description: "Checks if the latest commit follows the Conventional Commits specification."
+name: "Check Latest Commit Conventional"
+description: "Checks if the latest commit follows the Conventional Commits convention."
 author: "mail@fabriziocacicia.com"
 
 runs:
