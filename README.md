@@ -1,4 +1,4 @@
-# Check Conventional Latest Commit
+# Check Latest Commit Conventional
 A Github Action that checks if the latest commit follows the [Conventional Commits specification](https://www.conventionalcommits.org/).
 
 - Keep History Conventional: keeps in the commits history of the `main` branch only the commits that follows the [Conventional Commits][1] convention
