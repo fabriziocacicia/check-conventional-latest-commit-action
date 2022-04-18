@@ -1,7 +1,7 @@
 # Check Latest Commit Conventional
 A Github Action that checks if the latest commit follows the [Conventional Commits specification](https://www.conventionalcommits.org/).
 
-- Keep History Conventional: keeps in the commits history of the `main` branch only the commits that follows the [Conventional Commits][1] convention
+It will fail if the latest commit doesn't follow the convention, it will pass otherwise.
 - Conventional PR Titles: checks that the title of PRs follows the [Conventional Commits][1] convention
 - Delete Tags without Release: deletes all the tags without an associated release during the initial setup of the repository
 - Check for Template new Release: periodically checks if the template from which the repository is derived has a new release and create an PR to handle the changes
